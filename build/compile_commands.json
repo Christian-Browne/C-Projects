@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/c-code-runner.dir/test.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/test.c",
+  "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/test.c",
+  "output": "CMakeFiles/c-code-runner.dir/test.c.o"
+},
+{
+  "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/tic-tac-toe.c",
+  "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/tic-tac-toe.c",
+  "output": "CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o"
+}
+]
