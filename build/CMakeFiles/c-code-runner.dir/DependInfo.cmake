@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/test.c" "CMakeFiles/c-code-runner.dir/test.c.o" "gcc" "CMakeFiles/c-code-runner.dir/test.c.o.d"
   "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/tic-tac-toe.c" "CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o" "gcc" "CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o.d"
   )
 

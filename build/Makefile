@@ -523,30 +523,6 @@ c-code-runner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/build
 .PHONY : c-code-runner/fast
 
-test.o: test.c.o
-.PHONY : test.o
-
-# target to build an object file
-test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/test.c.o
-.PHONY : test.c.o
-
-test.i: test.c.i
-.PHONY : test.i
-
-# target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/test.c.i
-.PHONY : test.c.i
-
-test.s: test.c.s
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/test.c.s
-.PHONY : test.c.s
-
 tic-tac-toe.o: tic-tac-toe.c.o
 .PHONY : tic-tac-toe.o
 
@@ -611,9 +587,6 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... c-code-runner"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 	@echo "... tic-tac-toe.o"
 	@echo "... tic-tac-toe.i"
 	@echo "... tic-tac-toe.s"
