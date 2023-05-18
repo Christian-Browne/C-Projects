@@ -1,6 +1,12 @@
 [
 {
   "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/memory.dir/memory.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/memory.c",
+  "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/memory.c",
+  "output": "CMakeFiles/memory.dir/memory.c.o"
+},
+{
+  "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
   "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/strings.dir/strings.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/strings.c",
   "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/strings.c",
   "output": "CMakeFiles/strings.dir/strings.c.o"

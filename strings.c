@@ -63,7 +63,6 @@ void concat(char result[], const char str1[], const char str2[]) {
         j++;
     }
     result[i] = '\0';
-    return;
 }
 
 /* 

@@ -511,6 +511,19 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
+# Target rules for targets named memory
+
+# Build rule for target.
+memory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memory
+.PHONY : memory
+
+# fast build rule for target.
+memory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/build
+.PHONY : memory/fast
+
+#=============================================================================
 # Target rules for targets named strings
 
 # Build rule for target.
@@ -548,6 +561,30 @@ tic-tac-toe: cmake_check_build_system
 tic-tac-toe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/build
 .PHONY : tic-tac-toe/fast
+
+memory.o: memory.c.o
+.PHONY : memory.o
+
+# target to build an object file
+memory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/memory.c.o
+.PHONY : memory.c.o
+
+memory.i: memory.c.i
+.PHONY : memory.i
+
+# target to preprocess a source file
+memory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/memory.c.i
+.PHONY : memory.c.i
+
+memory.s: memory.c.s
+.PHONY : memory.s
+
+# target to generate assembly for a file
+memory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/memory.c.s
+.PHONY : memory.c.s
 
 strings.o: strings.c.o
 .PHONY : strings.o
@@ -660,9 +697,13 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... memory"
 	@echo "... strings"
 	@echo "... stringstwo"
 	@echo "... tic-tac-toe"
+	@echo "... memory.o"
+	@echo "... memory.i"
+	@echo "... memory.s"
 	@echo "... strings.o"
 	@echo "... strings.i"
 	@echo "... strings.s"
