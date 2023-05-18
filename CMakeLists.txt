@@ -6,7 +6,11 @@ enable_testing()
 
 # adds all c files to executable
 file(GLOB SOURCES "*.c")
-add_executable(c-code-runner ${SOURCES})
+foreach(sourcefile ${SOURCES})
+    # Get the name of the file without extension
+    get_filename_component(name ${sourcefile} NAME_WE)
+    add_executable(${name} ${sourcefile})
+endforeach()
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

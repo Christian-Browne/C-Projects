@@ -63,7 +63,9 @@ CMAKE_BINARY_DIR = /Users/christianbrowne/Documents/Personal/Development/C-proje
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/c-code-runner.dir/all
+all: CMakeFiles/strings.dir/all
+all: CMakeFiles/stringstwo.dir/all
+all: CMakeFiles/tic-tac-toe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -99,7 +101,9 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/c-code-runner.dir/clean
+clean: CMakeFiles/strings.dir/clean
+clean: CMakeFiles/stringstwo.dir/clean
+clean: CMakeFiles/tic-tac-toe.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -831,30 +835,82 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/c-code-runner.dir
+# Target rules for target CMakeFiles/strings.dir
 
 # All Build rule for target.
-CMakeFiles/c-code-runner.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=1,2,3 "Built target c-code-runner"
-.PHONY : CMakeFiles/c-code-runner.dir/all
+CMakeFiles/strings.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=1,2 "Built target strings"
+.PHONY : CMakeFiles/strings.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/c-code-runner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c-code-runner.dir/all
+CMakeFiles/strings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
-.PHONY : CMakeFiles/c-code-runner.dir/rule
+.PHONY : CMakeFiles/strings.dir/rule
 
 # Convenience name for target.
-c-code-runner: CMakeFiles/c-code-runner.dir/rule
-.PHONY : c-code-runner
+strings: CMakeFiles/strings.dir/rule
+.PHONY : strings
 
 # clean rule for target.
-CMakeFiles/c-code-runner.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/clean
-.PHONY : CMakeFiles/c-code-runner.dir/clean
+CMakeFiles/strings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/clean
+.PHONY : CMakeFiles/strings.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stringstwo.dir
+
+# All Build rule for target.
+CMakeFiles/stringstwo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=3,4 "Built target stringstwo"
+.PHONY : CMakeFiles/stringstwo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stringstwo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stringstwo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
+.PHONY : CMakeFiles/stringstwo.dir/rule
+
+# Convenience name for target.
+stringstwo: CMakeFiles/stringstwo.dir/rule
+.PHONY : stringstwo
+
+# clean rule for target.
+CMakeFiles/stringstwo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/clean
+.PHONY : CMakeFiles/stringstwo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tic-tac-toe.dir
+
+# All Build rule for target.
+CMakeFiles/tic-tac-toe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=5,6 "Built target tic-tac-toe"
+.PHONY : CMakeFiles/tic-tac-toe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tic-tac-toe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tic-tac-toe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
+.PHONY : CMakeFiles/tic-tac-toe.dir/rule
+
+# Convenience name for target.
+tic-tac-toe: CMakeFiles/tic-tac-toe.dir/rule
+.PHONY : tic-tac-toe
+
+# clean rule for target.
+CMakeFiles/tic-tac-toe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/clean
+.PHONY : CMakeFiles/tic-tac-toe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

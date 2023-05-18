@@ -1,4 +1,4 @@
-CMakeFiles/c-code-runner.dir/strings.c.o: \
+CMakeFiles/strings.dir/strings.c.o: \
   /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/strings.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \

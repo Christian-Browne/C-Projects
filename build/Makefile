@@ -511,24 +511,50 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named c-code-runner
+# Target rules for targets named strings
 
 # Build rule for target.
-c-code-runner: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c-code-runner
-.PHONY : c-code-runner
+strings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strings
+.PHONY : strings
 
 # fast build rule for target.
-c-code-runner/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/build
-.PHONY : c-code-runner/fast
+strings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/build
+.PHONY : strings/fast
+
+#=============================================================================
+# Target rules for targets named stringstwo
+
+# Build rule for target.
+stringstwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stringstwo
+.PHONY : stringstwo
+
+# fast build rule for target.
+stringstwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/build
+.PHONY : stringstwo/fast
+
+#=============================================================================
+# Target rules for targets named tic-tac-toe
+
+# Build rule for target.
+tic-tac-toe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tic-tac-toe
+.PHONY : tic-tac-toe
+
+# fast build rule for target.
+tic-tac-toe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/build
+.PHONY : tic-tac-toe/fast
 
 strings.o: strings.c.o
 .PHONY : strings.o
 
 # target to build an object file
 strings.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/strings.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/strings.c.o
 .PHONY : strings.c.o
 
 strings.i: strings.c.i
@@ -536,7 +562,7 @@ strings.i: strings.c.i
 
 # target to preprocess a source file
 strings.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/strings.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/strings.c.i
 .PHONY : strings.c.i
 
 strings.s: strings.c.s
@@ -544,15 +570,39 @@ strings.s: strings.c.s
 
 # target to generate assembly for a file
 strings.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/strings.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/strings.c.s
 .PHONY : strings.c.s
+
+stringstwo.o: stringstwo.c.o
+.PHONY : stringstwo.o
+
+# target to build an object file
+stringstwo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/stringstwo.c.o
+.PHONY : stringstwo.c.o
+
+stringstwo.i: stringstwo.c.i
+.PHONY : stringstwo.i
+
+# target to preprocess a source file
+stringstwo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/stringstwo.c.i
+.PHONY : stringstwo.c.i
+
+stringstwo.s: stringstwo.c.s
+.PHONY : stringstwo.s
+
+# target to generate assembly for a file
+stringstwo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/stringstwo.c.s
+.PHONY : stringstwo.c.s
 
 tic-tac-toe.o: tic-tac-toe.c.o
 .PHONY : tic-tac-toe.o
 
 # target to build an object file
 tic-tac-toe.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/tic-tac-toe.c.o
 .PHONY : tic-tac-toe.c.o
 
 tic-tac-toe.i: tic-tac-toe.c.i
@@ -560,7 +610,7 @@ tic-tac-toe.i: tic-tac-toe.c.i
 
 # target to preprocess a source file
 tic-tac-toe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/tic-tac-toe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/tic-tac-toe.c.i
 .PHONY : tic-tac-toe.c.i
 
 tic-tac-toe.s: tic-tac-toe.c.s
@@ -568,7 +618,7 @@ tic-tac-toe.s: tic-tac-toe.c.s
 
 # target to generate assembly for a file
 tic-tac-toe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/tic-tac-toe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/tic-tac-toe.c.s
 .PHONY : tic-tac-toe.c.s
 
 # Help Target
@@ -610,10 +660,15 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... c-code-runner"
+	@echo "... strings"
+	@echo "... stringstwo"
+	@echo "... tic-tac-toe"
 	@echo "... strings.o"
 	@echo "... strings.i"
 	@echo "... strings.s"
+	@echo "... stringstwo.o"
+	@echo "... stringstwo.i"
+	@echo "... stringstwo.s"
 	@echo "... tic-tac-toe.o"
 	@echo "... tic-tac-toe.i"
 	@echo "... tic-tac-toe.s"
