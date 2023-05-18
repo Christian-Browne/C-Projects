@@ -523,6 +523,30 @@ c-code-runner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/build
 .PHONY : c-code-runner/fast
 
+strings.o: strings.c.o
+.PHONY : strings.o
+
+# target to build an object file
+strings.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/strings.c.o
+.PHONY : strings.c.o
+
+strings.i: strings.c.i
+.PHONY : strings.i
+
+# target to preprocess a source file
+strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/strings.c.i
+.PHONY : strings.c.i
+
+strings.s: strings.c.s
+.PHONY : strings.s
+
+# target to generate assembly for a file
+strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/strings.c.s
+.PHONY : strings.c.s
+
 tic-tac-toe.o: tic-tac-toe.c.o
 .PHONY : tic-tac-toe.o
 
@@ -587,6 +611,9 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... c-code-runner"
+	@echo "... strings.o"
+	@echo "... strings.i"
+	@echo "... strings.s"
 	@echo "... tic-tac-toe.o"
 	@echo "... tic-tac-toe.i"
 	@echo "... tic-tac-toe.s"

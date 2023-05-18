@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/c-code-runner.dir/strings.c.o"
+  "CMakeFiles/c-code-runner.dir/strings.c.o.d"
   "CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o"
   "CMakeFiles/c-code-runner.dir/tic-tac-toe.c.o.d"
   "c-code-runner"

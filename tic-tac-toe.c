@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 enum gameState { passed, taken, win };
-// Functions
+// Functions declarations
 void printGrid(int array[], char array2[]);
 enum gameState gridConditions(int player, int location, char array[]);
 
@@ -57,7 +57,8 @@ int main (void) {
     }
 }
 
-/********** Functions ************/
+/*************************  Functions   ***************************/
+
 enum gameState gridConditions(int player, int location, char array[]) {
     enum gameState state = passed;
     if (array[location] != 'f') {
@@ -67,7 +68,6 @@ enum gameState gridConditions(int player, int location, char array[]) {
     } else {
 
     }
-
     return state;
 }
 

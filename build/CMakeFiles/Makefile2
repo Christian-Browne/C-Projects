@@ -837,12 +837,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/c-code-runner.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-code-runner.dir/build.make CMakeFiles/c-code-runner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=1,2 "Built target c-code-runner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=1,2,3 "Built target c-code-runner"
 .PHONY : CMakeFiles/c-code-runner.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/c-code-runner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c-code-runner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
 .PHONY : CMakeFiles/c-code-runner.dir/rule
