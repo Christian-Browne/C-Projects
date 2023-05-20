@@ -7,6 +7,24 @@
 },
 {
   "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/pointers1.dir/pointers1.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/pointers1.c",
+  "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/pointers1.c",
+  "output": "CMakeFiles/pointers1.dir/pointers1.c.o"
+},
+{
+  "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/pointers2.dir/pointers2.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/pointers2.c",
+  "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/pointers2.c",
+  "output": "CMakeFiles/pointers2.dir/pointers2.c.o"
+},
+{
+  "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/reference.dir/reference.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/reference.c",
+  "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/reference.c",
+  "output": "CMakeFiles/reference.dir/reference.c.o"
+},
+{
+  "directory": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build",
   "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/strings.dir/strings.c.o -c /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/strings.c",
   "file": "/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/strings.c",
   "output": "CMakeFiles/strings.dir/strings.c.o"

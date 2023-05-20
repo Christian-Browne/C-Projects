@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /Users/christianbrowne/Documents/Personal/Development/C-proje
 
 # The main recursive "all" target.
 all: CMakeFiles/memory.dir/all
+all: CMakeFiles/pointers1.dir/all
+all: CMakeFiles/pointers2.dir/all
+all: CMakeFiles/reference.dir/all
 all: CMakeFiles/strings.dir/all
 all: CMakeFiles/stringstwo.dir/all
 all: CMakeFiles/tic-tac-toe.dir/all
@@ -103,6 +106,9 @@ clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/memory.dir/clean
+clean: CMakeFiles/pointers1.dir/clean
+clean: CMakeFiles/pointers2.dir/clean
+clean: CMakeFiles/reference.dir/clean
 clean: CMakeFiles/strings.dir/clean
 clean: CMakeFiles/stringstwo.dir/clean
 clean: CMakeFiles/tic-tac-toe.dir/clean
@@ -863,13 +869,91 @@ CMakeFiles/memory.dir/clean:
 .PHONY : CMakeFiles/memory.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/pointers1.dir
+
+# All Build rule for target.
+CMakeFiles/pointers1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=3,4 "Built target pointers1"
+.PHONY : CMakeFiles/pointers1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointers1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointers1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
+.PHONY : CMakeFiles/pointers1.dir/rule
+
+# Convenience name for target.
+pointers1: CMakeFiles/pointers1.dir/rule
+.PHONY : pointers1
+
+# clean rule for target.
+CMakeFiles/pointers1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/clean
+.PHONY : CMakeFiles/pointers1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointers2.dir
+
+# All Build rule for target.
+CMakeFiles/pointers2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=5,6 "Built target pointers2"
+.PHONY : CMakeFiles/pointers2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointers2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointers2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
+.PHONY : CMakeFiles/pointers2.dir/rule
+
+# Convenience name for target.
+pointers2: CMakeFiles/pointers2.dir/rule
+.PHONY : pointers2
+
+# clean rule for target.
+CMakeFiles/pointers2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/clean
+.PHONY : CMakeFiles/pointers2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reference.dir
+
+# All Build rule for target.
+CMakeFiles/reference.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=7,8 "Built target reference"
+.PHONY : CMakeFiles/reference.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reference.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reference.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles 0
+.PHONY : CMakeFiles/reference.dir/rule
+
+# Convenience name for target.
+reference: CMakeFiles/reference.dir/rule
+.PHONY : reference
+
+# clean rule for target.
+CMakeFiles/reference.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/clean
+.PHONY : CMakeFiles/reference.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/strings.dir
 
 # All Build rule for target.
 CMakeFiles/strings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=3,4 "Built target strings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=9,10 "Built target strings"
 .PHONY : CMakeFiles/strings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -895,7 +979,7 @@ CMakeFiles/strings.dir/clean:
 CMakeFiles/stringstwo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringstwo.dir/build.make CMakeFiles/stringstwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=5,6 "Built target stringstwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=11,12 "Built target stringstwo"
 .PHONY : CMakeFiles/stringstwo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -921,7 +1005,7 @@ CMakeFiles/stringstwo.dir/clean:
 CMakeFiles/tic-tac-toe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic-tac-toe.dir/build.make CMakeFiles/tic-tac-toe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=7,8 "Built target tic-tac-toe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles --progress-num=13,14 "Built target tic-tac-toe"
 .PHONY : CMakeFiles/tic-tac-toe.dir/all
 
 # Build rule for subdir invocation for target.

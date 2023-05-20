@@ -27,6 +27,9 @@
 /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/ContinuousMemCheck.dir
 /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/ContinuousSubmit.dir
 /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/memory.dir
+/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/pointers1.dir
+/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/pointers2.dir
+/Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/reference.dir
 /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/strings.dir
 /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/stringstwo.dir
 /Users/christianbrowne/Documents/Personal/Development/C-projects/projects/build/CMakeFiles/tic-tac-toe.dir

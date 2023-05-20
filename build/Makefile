@@ -524,6 +524,45 @@ memory/fast:
 .PHONY : memory/fast
 
 #=============================================================================
+# Target rules for targets named pointers1
+
+# Build rule for target.
+pointers1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointers1
+.PHONY : pointers1
+
+# fast build rule for target.
+pointers1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/build
+.PHONY : pointers1/fast
+
+#=============================================================================
+# Target rules for targets named pointers2
+
+# Build rule for target.
+pointers2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointers2
+.PHONY : pointers2
+
+# fast build rule for target.
+pointers2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/build
+.PHONY : pointers2/fast
+
+#=============================================================================
+# Target rules for targets named reference
+
+# Build rule for target.
+reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reference
+.PHONY : reference
+
+# fast build rule for target.
+reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/build
+.PHONY : reference/fast
+
+#=============================================================================
 # Target rules for targets named strings
 
 # Build rule for target.
@@ -585,6 +624,78 @@ memory.s: memory.c.s
 memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/memory.c.s
 .PHONY : memory.c.s
+
+pointers1.o: pointers1.c.o
+.PHONY : pointers1.o
+
+# target to build an object file
+pointers1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/pointers1.c.o
+.PHONY : pointers1.c.o
+
+pointers1.i: pointers1.c.i
+.PHONY : pointers1.i
+
+# target to preprocess a source file
+pointers1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/pointers1.c.i
+.PHONY : pointers1.c.i
+
+pointers1.s: pointers1.c.s
+.PHONY : pointers1.s
+
+# target to generate assembly for a file
+pointers1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers1.dir/build.make CMakeFiles/pointers1.dir/pointers1.c.s
+.PHONY : pointers1.c.s
+
+pointers2.o: pointers2.c.o
+.PHONY : pointers2.o
+
+# target to build an object file
+pointers2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/pointers2.c.o
+.PHONY : pointers2.c.o
+
+pointers2.i: pointers2.c.i
+.PHONY : pointers2.i
+
+# target to preprocess a source file
+pointers2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/pointers2.c.i
+.PHONY : pointers2.c.i
+
+pointers2.s: pointers2.c.s
+.PHONY : pointers2.s
+
+# target to generate assembly for a file
+pointers2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointers2.dir/build.make CMakeFiles/pointers2.dir/pointers2.c.s
+.PHONY : pointers2.c.s
+
+reference.o: reference.c.o
+.PHONY : reference.o
+
+# target to build an object file
+reference.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/reference.c.o
+.PHONY : reference.c.o
+
+reference.i: reference.c.i
+.PHONY : reference.i
+
+# target to preprocess a source file
+reference.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/reference.c.i
+.PHONY : reference.c.i
+
+reference.s: reference.c.s
+.PHONY : reference.s
+
+# target to generate assembly for a file
+reference.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/reference.c.s
+.PHONY : reference.c.s
 
 strings.o: strings.c.o
 .PHONY : strings.o
@@ -698,12 +809,24 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... memory"
+	@echo "... pointers1"
+	@echo "... pointers2"
+	@echo "... reference"
 	@echo "... strings"
 	@echo "... stringstwo"
 	@echo "... tic-tac-toe"
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... pointers1.o"
+	@echo "... pointers1.i"
+	@echo "... pointers1.s"
+	@echo "... pointers2.o"
+	@echo "... pointers2.i"
+	@echo "... pointers2.s"
+	@echo "... reference.o"
+	@echo "... reference.i"
+	@echo "... reference.s"
 	@echo "... strings.o"
 	@echo "... strings.i"
 	@echo "... strings.s"

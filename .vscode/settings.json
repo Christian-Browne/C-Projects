@@ -3,6 +3,7 @@
     "*.embeddedhtml": "html",
     "stdbool.h": "c",
     "__tuple": "c",
-    "array": "c"
+    "array": "c",
+    "stdio.h": "c"
   }
 }

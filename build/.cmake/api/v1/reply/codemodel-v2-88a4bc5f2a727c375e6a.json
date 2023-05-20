@@ -46,7 +46,10 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32,
+						33,
+						34
 					]
 				}
 			],
@@ -92,7 +95,10 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32,
+						33,
+						34
 					]
 				}
 			],
@@ -299,6 +305,27 @@
 					"id" : "memory::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-memory-Debug-d7d89d95caff4ee1a5eb.json",
 					"name" : "memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointers1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointers1-Debug-a75c059c0f9e12596d50.json",
+					"name" : "pointers1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointers2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointers2-Debug-ff5d4abdbab86c92ad19.json",
+					"name" : "pointers2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reference-Debug-970700ec38044b757a27.json",
+					"name" : "reference",
 					"projectIndex" : 0
 				},
 				{
