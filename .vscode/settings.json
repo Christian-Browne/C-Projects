@@ -1,6 +1,8 @@
 {
   "files.associations": {
     "*.embeddedhtml": "html",
-    "stdbool.h": "c"
+    "stdbool.h": "c",
+    "__tuple": "c",
+    "array": "c"
   }
 }

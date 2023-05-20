@@ -18,7 +18,7 @@ use strlen
 */
 void reverse(char result[], const char str[]) {
     int i = 0;
-    int len = strlen(str);
+    long unsigned int len = strlen(str);
 
     while (len > 0) {
         result[i] = str[len - 1];
